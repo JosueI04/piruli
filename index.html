@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionamiento de las Aplicaciones Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #bbb 1px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        article {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Funcionamiento de las Aplicaciones Web</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <article>
+            <h2>¿Qué es una Aplicación Web?</h2>
+            <img src="img/arquitectura-aplicaciones-web.png" alt="Aplicación Web">
+            <p>Una aplicación web es un software que se ejecuta en un servidor y se accede a través de un navegador web. A diferencia de las aplicaciones de escritorio, las aplicaciones web no necesitan ser instaladas en el dispositivo del usuario; simplemente se accede a ellas mediante una URL.</p>
+        </article>
+        
+        <article>
+            <h2>Componentes Principales</h2>
+            <img src="img/componente.avif" alt="Componentes de Aplicación Web">
+            <p>Las aplicaciones web generalmente constan de dos componentes principales:</p>
+            <ul>
+                <li><strong>Frontend:</strong> La parte visible de la aplicación que interactúa con el usuario. Está desarrollado utilizando tecnologías como HTML, CSS y JavaScript.</li>
+                <li><strong>Backend:</strong> La parte que maneja la lógica de la aplicación, la base de datos y la interacción con el servidor. Suele estar desarrollado en lenguajes como PHP, Python, Ruby, o JavaScript (Node.js).</li>
+            </ul>
+        </article>
+        
+        <article>
+            <h2>Cómo Funcionan</h2>
+            <img src="img/funcion.jpg" alt="Proceso de Aplicación Web">
+            <p>Cuando un usuario accede a una aplicación web, su navegador envía una solicitud al servidor donde está alojada la aplicación. El servidor procesa la solicitud, ejecuta la lógica necesaria, y luego envía una respuesta que el navegador interpreta y muestra al usuario. Esta interacción continua puede involucrar el envío y la recepción de datos en tiempo real, la actualización de la interfaz y la ejecución de diferentes funcionalidades.</p>
+        </article>
+        
+        <article>
+            <h2>Ventajas de las Aplicaciones Web</h2>
+            <img src="img/ventaja.jpg" alt="Ventajas de Aplicaciones Web">
+            <ul>
+                <li><strong>Accesibilidad:</strong> Los usuarios pueden acceder a la aplicación desde cualquier lugar con conexión a internet.</li>
+                <li><strong>Actualizaciones Simples:</strong> Las actualizaciones se realizan en el servidor, por lo que los usuarios siempre tienen acceso a la versión más reciente.</li>
+                <li><strong>Compatibilidad:</strong> Funcionan en diferentes sistemas operativos y dispositivos, siempre que el navegador sea compatible.</li>
+            </ul>
+        </article>
+    </div>
+    
+</body>
+
+
+  <header>
+<div class="container">
+    <h1>Tecnologías para el Desarrollo de Aplicaciones Web</h1>
+</div>
+</header>
+
+<div class="container">
+<article>
+    <h2>Frontend</h2>
+    <img src="img/front.png" alt="Frontend">
+    <p>El frontend se refiere a la parte visible de la aplicación web con la que los usuarios interactúan directamente. Las tecnologías principales para el desarrollo frontend incluyen:</p>
+    <ul>
+        <li><strong>HTML (HyperText Markup Language):</strong> El lenguaje de marcado que estructura el contenido web.</li>
+        <li><strong>CSS (Cascading Style Sheets):</strong> El lenguaje de estilos que define la apariencia visual de las páginas web.</li>
+        <li><strong>JavaScript:</strong> El lenguaje de programación que añade interactividad y dinámica a las páginas web.</li>
+        <li><strong>Frameworks y Bibliotecas:</strong> Herramientas como React, Angular y Vue.js facilitan el desarrollo de interfaces de usuario.</li>
+    </ul>
+</article>
+
+<article>
+    <h2>Backend</h2>
+    <img src="img/back.webp" alt="Backend">
+    <p>El backend se encarga de la lógica de la aplicación, la interacción con la base de datos y la gestión del servidor. Las tecnologías principales para el desarrollo backend incluyen:</p>
+    <ul>
+        <li><strong>Lenguajes de Programación:</strong> PHP, Python, Ruby, Java y JavaScript (Node.js) son comunes para el desarrollo del servidor.</li>
+        <li><strong>Frameworks:</strong> Herramientas como Django (Python), Ruby on Rails (Ruby), y Express.js (Node.js) simplifican el desarrollo backend.</li>
+        <li><strong>Servidores Web:</strong> Software como Apache y Nginx gestionan las solicitudes y respuestas entre el cliente y el servidor.</li>
+    </ul>
+</article>
+
+<article>
+    <h2>Base de Datos</h2>
+    <img src="img/base.png" alt="Base de Datos">
+    <p>Las bases de datos almacenan y gestionan la información utilizada por las aplicaciones web. Existen dos tipos principales:</p>
+    <ul>
+        <li><strong>Bases de Datos Relacionales:</strong> Utilizan SQL (Structured Query Language) para gestionar datos. Ejemplos incluyen MySQL, PostgreSQL y SQLite.</li>
+        <li><strong>Bases de Datos NoSQL:</strong> Diseñadas para manejar datos no estructurados y escalabilidad horizontal. Ejemplos incluyen MongoDB y Cassandra.</li>
+    </ul>
+</article>
+
+<article>
+    <h2>DevOps y Herramientas de Desarrollo</h2>
+    <img src="img/dev.webp" alt="DevOps y Herramientas">
+    <p>Las prácticas de DevOps y las herramientas de desarrollo facilitan la integración continua, el despliegue y la gestión de aplicaciones. Algunas herramientas importantes son:</p>
+    <ul>
+        <li><strong>Control de Versiones:</strong> Git es una herramienta fundamental para el control de versiones del código fuente.</li>
+        <li><strong>Automatización y CI/CD:</strong> Herramientas como Jenkins, Travis CI y GitHub Actions automatizan los procesos de construcción, prueba y despliegue.</li>
+        <li><strong>Contenedores:</strong> Docker permite empaquetar aplicaciones en contenedores para una mayor portabilidad y consistencia.</li>
+    </ul>
+</article>
+</div>
+
+
+</body>
+
+<header>
+    <div class="container">
+        <h1>Referencias</h1>
+    </div>
+    </header>
+    <div class="container">
+        <article>
+            <h2>Formato APA</h2>
+
+        
+            <ul>
+                <li><strong>Guillén, X. V., & Moldes, L. N. (2019). Arquitectura de aplicaciones web.</strong></li>
+                <li><strong>Aumaille, B. (2002). J2EE: Desarrollo de aplicaciones Web. Ediciones ENI.</strong></li>
+                <li><strong>TALLEDO SAN MIGUEL, J. V. (2015). Implantación de aplicaciones web en entornos internet, intranet y extranet. Ediciones Paraninfo, SA.</strong></li>
+            </ul>
+        </article>
+</html>
+
+<footer>
+    <p>&copy; Josue Ismael Cruz De La Cruz 703 "A"</p>
+    </footer>
